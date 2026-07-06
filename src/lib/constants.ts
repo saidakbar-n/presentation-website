@@ -4,8 +4,8 @@ export const SITE = {
   tagline:
     "For me, Software Engineering is the way to transform ideas into meaningful solutions that improve people's lives.",
   position: "Ausbildung Fachinformatiker – Anwendungsentwicklung @ adidas",
-  email: "saidakbar.nasyrov@outlook.com",
-  github: "https://github.com/saidakbar-nasyrov",
+  email: "nasyrovsaidakbar66@gmail.com",
+  github: "https://github.com/saidakbar-n",
   linkedin: "https://linkedin.com/in/saidakbar-nasyrov",
   location: "Tashkent, Uzbekistan → Germany",
   phone: "+998 90 943 48 18",
