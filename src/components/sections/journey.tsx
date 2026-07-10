@@ -65,7 +65,7 @@ export function Journey() {
     <SectionShell
       id="journey"
       label="Journey"
-      title="Path to adidas"
+      title="My path"
     >
       <div ref={containerRef} className="relative">
         <div className="absolute bottom-0 left-1/2 top-0 hidden w-px -translate-x-1/2 bg-zinc-800 md:block">

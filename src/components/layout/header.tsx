@@ -10,7 +10,7 @@ const navItems = [
   { href: "#projects", label: "Projects" },
   { href: "#philosophy", label: "Philosophy" },
   { href: "#why-germany", label: "Why Germany" },
-  { href: "#why-adidas", label: "Why adidas" },
+  { href: "#values", label: "Values" },
   { href: "#contact", label: "Contact" },
 ];
 

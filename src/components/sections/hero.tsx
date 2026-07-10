@@ -32,7 +32,7 @@ export function Hero() {
       >
         <Reveal delay={0.1}>
           <Badge className="mb-8 border-zinc-800 text-zinc-500">
-            {SITE.position}
+            {SITE.badge}
           </Badge>
         </Reveal>
 

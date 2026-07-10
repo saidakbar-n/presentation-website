@@ -17,20 +17,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: `${SITE.name} — Software Engineering Applicant`,
-  description:
-    "Why adidas should choose Saidakbar Nasyrov for Ausbildung Fachinformatiker Anwendungsentwicklung — an immersive story of engineering, growth, and purpose.",
+  title: `${SITE.name} — Software Engineer`,
+  description: `${SITE.tagline} The story, work, and values of ${SITE.name}.`,
   keywords: [
     "Saidakbar Nasyrov",
-    "adidas",
+    "Software Engineer",
     "Ausbildung",
     "Fachinformatiker",
     "Anwendungsentwicklung",
-    "Software Engineering",
+    "Germany",
   ],
   authors: [{ name: SITE.name }],
   openGraph: {
-    title: `${SITE.name} — Why adidas should choose me`,
+    title: `${SITE.name} — Software Engineer`,
     description: SITE.tagline,
     type: "website",
   },

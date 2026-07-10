@@ -1,9 +1,9 @@
 export const SITE = {
   name: "Saidakbar Nasyrov",
-  role: "Software Engineering Applicant",
+  role: "Software Engineer",
   tagline:
     "For me, Software Engineering is the way to transform ideas into meaningful solutions that improve people's lives.",
-  position: "Ausbildung Fachinformatiker – Anwendungsentwicklung @ adidas",
+  badge: "Tashkent → Germany",
   email: "nasyrovsaidakbar66@gmail.com",
   github: "https://github.com/saidakbar-n",
   linkedin: "https://linkedin.com/in/saidakbar-nasyrov",

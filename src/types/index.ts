@@ -29,12 +29,10 @@ export interface PhilosophyPillar {
   icon: string;
 }
 
-export interface AdidasValue {
+export interface CoreValue {
   id: string;
-  value: string;
-  experience: string;
+  title: string;
   story: string;
-  match: string;
 }
 
 export interface FutureMilestone {

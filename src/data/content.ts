@@ -2,7 +2,7 @@ import type {
   JourneyStep,
   PhilosophyPillar,
   Project,
-  AdidasValue,
+  CoreValue,
   FutureMilestone,
   PersonalInterest,
 } from "@/types";
@@ -66,11 +66,11 @@ export const journeySteps: JourneyStep[] = [
     icon: "language",
   },
   {
-    id: "adidas",
+    id: "germany",
     year: "2026",
-    title: "Applying to adidas",
-    subtitle: "Ausbildung",
-    description: "Sport, innovation, scale — and ownership from day one.",
+    title: "Building in Germany",
+    subtitle: "Next chapter",
+    description: "Ausbildung, deep fundamentals, and a long-term engineering career.",
     icon: "target",
   },
 ];
@@ -152,55 +152,43 @@ export const philosophyPillars: PhilosophyPillar[] = [
   },
 ];
 
-export const adidasValues: AdidasValue[] = [
+export const coreValues: CoreValue[] = [
   {
     id: "courage",
-    value: "Courage",
-    experience: "",
+    title: "Courage",
     story: "Chose Ausbildung over the easy path — invested in fundamentals.",
-    match: "",
   },
   {
     id: "ownership",
-    value: "Ownership",
-    experience: "",
+    title: "Ownership",
     story: "Founded products. Led architecture. Shipped to production.",
-    match: "",
   },
   {
     id: "innovation",
-    value: "Innovation",
-    experience: "",
+    title: "Innovation",
     story: "AI-native products — validated, not just generated.",
-    match: "",
   },
   {
-    id: "teamplay",
-    value: "Teamplay",
-    experience: "",
+    id: "teamwork",
+    title: "Teamwork",
     story: "Agile teams, hackathons, co-founding under pressure.",
-    match: "",
   },
   {
     id: "integrity",
-    value: "Integrity",
-    experience: "",
+    title: "Integrity",
     story: "Honest communication. Independent validation. No shortcuts.",
-    match: "",
   },
   {
     id: "respect",
-    value: "Respect",
-    experience: "",
+    title: "Respect",
     story: "Inclusive tech — sign language AI, accessible learning tools.",
-    match: "",
   },
 ];
 
 export const futureMilestones: FutureMilestone[] = [
   {
     year: "2026–29",
-    title: "Ausbildung @ adidas",
+    title: "Ausbildung in Germany",
     description: "Fundamentals + hands-on engineering.",
   },
   {
