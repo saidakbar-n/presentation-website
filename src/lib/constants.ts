@@ -13,5 +13,4 @@ export const SITE = {
 
 export const DOCUMENTS = {
   cv: "/documents/cv.pdf",
-  motivationLetter: "/documents/motivation-letter.pdf",
 } as const;

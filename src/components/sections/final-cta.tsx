@@ -7,7 +7,6 @@ import { ButtonLink } from "@/components/ui/button";
 
 const links = [
   { label: "CV", href: DOCUMENTS.cv, variant: "primary" as const },
-  { label: "Motivation Letter", href: DOCUMENTS.motivationLetter, variant: "secondary" as const },
   { label: "GitHub", href: SITE.github, variant: "secondary" as const },
   { label: "LinkedIn", href: SITE.linkedin, variant: "secondary" as const },
   { label: "Email", href: `mailto:${SITE.email}`, variant: "secondary" as const },
