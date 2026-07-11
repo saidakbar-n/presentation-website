@@ -19,6 +19,7 @@ export interface Project {
   impact: string;
   gradient: string;
   accent: string;
+  url?: string;
 }
 
 export interface PhilosophyPillar {

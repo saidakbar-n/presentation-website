@@ -50,9 +50,21 @@ export function Projects() {
               <p className={cn("text-xs font-medium", current.accent)}>
                 {current.role}
               </p>
-              <h3 className="mt-1 text-2xl font-semibold text-white">
-                {current.name}
-              </h3>
+              <div className="mt-1 flex flex-wrap items-center gap-3">
+                <h3 className="text-2xl font-semibold text-white">
+                  {current.name}
+                </h3>
+                {current.url && (
+                  <a
+                    href={current.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-zinc-400 transition-colors hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/30 rounded"
+                  >
+                    getconverza.com ↗
+                  </a>
+                )}
+              </div>
               <p className="mt-3 text-sm text-zinc-300">{current.description}</p>
               <div className="mt-4 flex flex-wrap gap-2">
                 {current.technologies.map((tech) => (

@@ -99,6 +99,7 @@ export const projects: Project[] = [
     impact: "Less manual work, more creative focus.",
     gradient: "from-violet-500/20 via-purple-500/10 to-transparent",
     accent: "text-violet-400",
+    url: "https://getconverza.com",
   },
   {
     id: "uzbek-sign",
